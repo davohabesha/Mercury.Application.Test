@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81316" started-at="2020-03-28T03:34:46Z" finished-at="2020-03-28T03:36:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="81316" started-at="2020-03-28T03:34:46Z" finished-at="2020-03-28T03:36:07Z">
+      <class name="com.mercury.qa.testclass.RegstrationTestcase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testclass.RegstrationTestcase@3e6fa38a]" name="setup" is-config="true" duration-ms="6757" started-at="2020-03-27T23:35:14Z" finished-at="2020-03-27T23:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="flightfindertest()[pri:0, instance:com.mercury.qa.testclass.RegstrationTestcase@3e6fa38a]" name="flightfindertest" duration-ms="14650" started-at="2020-03-27T23:35:20Z" finished-at="2020-03-27T23:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightfindertest -->
+      </class> <!-- com.mercury.qa.testclass.RegstrationTestcase -->
+      <class name="com.mercury.qa.testclass.Sighintestcase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testclass.Sighintestcase@6f7fd0e6]" name="setup" is-config="true" duration-ms="6256" started-at="2020-03-27T23:35:35Z" finished-at="2020-03-27T23:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verfysighin()[pri:1, instance:com.mercury.qa.testclass.Sighintestcase@6f7fd0e6]" name="verfysighin" duration-ms="5414" started-at="2020-03-27T23:35:41Z" finished-at="2020-03-27T23:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfysighin -->
+      </class> <!-- com.mercury.qa.testclass.Sighintestcase -->
+      <class name="com.mercury.qa.testclass.registernewcontactTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testclass.registernewcontactTest@27efef64]" name="setup" is-config="true" duration-ms="8516" started-at="2020-03-27T23:34:46Z" finished-at="2020-03-27T23:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.mercury.qa.testclass.registernewcontactTest@27efef64]" name="login" duration-ms="9990" started-at="2020-03-27T23:35:47Z" finished-at="2020-03-27T23:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="forms(java.lang.String, java.lang.String)[pri:2, instance:com.mercury.qa.testclass.registernewcontactTest@27efef64]" name="forms" duration-ms="2212" started-at="2020-03-27T23:35:58Z" data-provider="fillingforms" finished-at="2020-03-27T23:36:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dawit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aderaw]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forms -->
+        <test-method status="PASS" signature="forms(java.lang.String, java.lang.String)[pri:2, instance:com.mercury.qa.testclass.registernewcontactTest@27efef64]" name="forms" duration-ms="2264" started-at="2020-03-27T23:36:01Z" data-provider="fillingforms" finished-at="2020-03-27T23:36:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[melaku]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[belachew]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forms -->
+        <test-method status="PASS" signature="forms(java.lang.String, java.lang.String)[pri:2, instance:com.mercury.qa.testclass.registernewcontactTest@27efef64]" name="forms" duration-ms="2309" started-at="2020-03-27T23:36:03Z" data-provider="fillingforms" finished-at="2020-03-27T23:36:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mikiki]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[negussie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forms -->
+        <test-method status="PASS" signature="forms(java.lang.String, java.lang.String)[pri:2, instance:com.mercury.qa.testclass.registernewcontactTest@27efef64]" name="forms" duration-ms="2226" started-at="2020-03-27T23:36:05Z" data-provider="fillingforms" finished-at="2020-03-27T23:36:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emaye]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[belay]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forms -->
+      </class> <!-- com.mercury.qa.testclass.registernewcontactTest -->
+      <class name="com.mercury.qa.testclass.HomePageTestcase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testclass.HomePageTestcase@47c62251]" name="setup" is-config="true" duration-ms="7361" started-at="2020-03-27T23:34:55Z" finished-at="2020-03-27T23:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickonhome()[pri:0, instance:com.mercury.qa.testclass.HomePageTestcase@47c62251]" name="clickonhome" duration-ms="11029" started-at="2020-03-27T23:35:02Z" finished-at="2020-03-27T23:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonhome -->
+      </class> <!-- com.mercury.qa.testclass.HomePageTestcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

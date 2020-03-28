@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="32826" started-at="2020-03-28T04:39:00Z" finished-at="2020-03-28T04:39:33Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="32826" started-at="2020-03-28T04:39:00Z" finished-at="2020-03-28T04:39:33Z">
+      <class name="com.mercury.qa.testclass.registernewcontactTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercury.qa.testclass.registernewcontactTest@38082d64]" name="setup" is-config="true" duration-ms="9789" started-at="2020-03-28T00:39:00Z" finished-at="2020-03-28T00:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.mercury.qa.testclass.registernewcontactTest@38082d64]" name="login" duration-ms="12650" started-at="2020-03-28T00:39:10Z" finished-at="2020-03-28T00:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="forms(java.lang.String, java.lang.String)[pri:2, instance:com.mercury.qa.testclass.registernewcontactTest@38082d64]" name="forms" duration-ms="2221" started-at="2020-03-28T00:39:24Z" data-provider="fillingforms" finished-at="2020-03-28T00:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dawit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aderaw]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forms -->
+        <test-method status="PASS" signature="forms(java.lang.String, java.lang.String)[pri:2, instance:com.mercury.qa.testclass.registernewcontactTest@38082d64]" name="forms" duration-ms="2195" started-at="2020-03-28T00:39:26Z" data-provider="fillingforms" finished-at="2020-03-28T00:39:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[melaku]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[belachew]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forms -->
+        <test-method status="PASS" signature="forms(java.lang.String, java.lang.String)[pri:2, instance:com.mercury.qa.testclass.registernewcontactTest@38082d64]" name="forms" duration-ms="2366" started-at="2020-03-28T00:39:28Z" data-provider="fillingforms" finished-at="2020-03-28T00:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mikiki]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[negussie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forms -->
+        <test-method status="PASS" signature="forms(java.lang.String, java.lang.String)[pri:2, instance:com.mercury.qa.testclass.registernewcontactTest@38082d64]" name="forms" duration-ms="2191" started-at="2020-03-28T00:39:30Z" data-provider="fillingforms" finished-at="2020-03-28T00:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emaye]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[belay]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forms -->
+      </class> <!-- com.mercury.qa.testclass.registernewcontactTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
