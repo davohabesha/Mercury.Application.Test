@@ -3,12 +3,31 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+      <class name="com.mercury.qa.testclass.HomePageTestcase">
+        <methods>
+          <include name="setup"/>
+          <include name="clickonhome"/>
+        </methods>
+      </class> <!-- com.mercury.qa.testclass.HomePageTestcase -->
+      <class name="com.mercury.qa.testclass.Sighintestcase">
+        <methods>
+          <include name="setup"/>
+          <include name="verfysighin"/>
+        </methods>
+      </class> <!-- com.mercury.qa.testclass.Sighintestcase -->
       <class name="com.mercury.qa.testclass.registernewcontactTest">
         <methods>
           <include name="setup"/>
-          <include name="forms" invocation-numbers="0 1 2 3"/>
+          <include name="forms"/>
+          <include name="login"/>
         </methods>
       </class> <!-- com.mercury.qa.testclass.registernewcontactTest -->
+      <class name="com.mercury.qa.testclass.RegstrationTestcase">
+        <methods>
+          <include name="setup"/>
+          <include name="flightfindertest"/>
+        </methods>
+      </class> <!-- com.mercury.qa.testclass.RegstrationTestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

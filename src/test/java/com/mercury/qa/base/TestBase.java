@@ -47,8 +47,8 @@ public static WebEventListener eventlistener;
 		}
 		
 		else if (browserName.equals("Chrome")) {
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\eth\\Desktop\\chromedriver.exe" );
-			driver= new ChromeDriver();
+			System.setProperty("webdriver.chrome.driver", "C:/Users/eth/Desktop/es/chromedriver.exe");
+			 driver = new ChromeDriver();
 		}
 		
 		e_driver = new EventFiringWebDriver(driver);
